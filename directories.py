@@ -94,7 +94,7 @@ def parse_input(input):
           directoryTree.add_child(in_directory, out_directory)
           directoryTree.remove_child(clean_directory, out_directory)
       case _:
-        return
+        continue
 
 parse_input(input)
     
